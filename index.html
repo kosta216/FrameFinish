@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title data-i18n="meta.title">FrameFinish — Zeitmessung. Frame-genau.</title>
+  <meta name="description" data-i18n="meta.description" content="Frame-genaue Sport-Zeitmessung für Lehrkräfte und Trainer." />
+  <meta name="theme-color" content="#0b0f17" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://api.web3forms.com" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/config.js"></script>
+  <script src="js/i18n.js"></script>
+  <!-- Open Graph -->
+  <meta property="og:title" content="FrameFinish — Frame-accurate sports timing" />
+  <meta property="og:description" content="Turn your iPhone/iPad into a precise finish-line camera." />
+  <meta property="og:type" content="website" />
+</head>
+<body>
+  <!-- ===== Header ===== -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="FrameFinish">
+        <svg class="brand-mark" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+          <rect width="48" height="48" rx="12" fill="url(#ffh)"/>
+          <path d="M15 19v-3a2 2 0 0 1 2-2h3M33 19v-3a2 2 0 0 0-2-2h-3M15 29v3a2 2 0 0 0 2 2h3M33 29v3a2 2 0 0 1-2 2h-3" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/>
+          <g fill="#fff"><rect x="20" y="20" width="4" height="4"/><rect x="24" y="24" width="4" height="4"/></g>
+          <defs><linearGradient id="ffh" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse"><stop stop-color="#6366F1"/><stop offset="1" stop-color="#22C55E"/></linearGradient></defs>
+        </svg>
+        <span>Frame<span class="brand-fin">Finish</span></span>
+      </a>
+
+      <nav class="nav" data-nav-menu>
+        <a class="nav-link" href="#features" data-i18n="nav.features">Funktionen</a>
+        <a class="nav-link" href="#how" data-i18n="nav.how">So funktioniert’s</a>
+        <a class="nav-link" href="#audience" data-i18n="nav.audience">Für wen</a>
+        <a class="nav-link" href="privacy.html" data-i18n="nav.privacy">Datenschutz</a>
+        <a class="nav-link" href="support.html" data-i18n="nav.support">Support</a>
+        <button class="lang-toggle" data-lang-toggle onclick="toggleLang()">EN</button>
+      </nav>
+
+      <div class="header-actions">
+        <button class="lang-toggle" data-lang-toggle onclick="toggleLang()">EN</button>
+        <a class="btn btn-primary" href="support.html" data-i18n="nav.cta">Beta testen</a>
+        <button class="nav-toggle" data-nav-toggle aria-label="Menü" aria-expanded="false"><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== Hero ===== -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="hero-badge"><span class="dot"></span><span data-i18n="hero.badge">Bald im App Store · jetzt als Beta</span></span>
+          <h1><span class="grad" data-i18n="hero.title">Zeitmessung. Frame-genau.</span></h1>
+          <p class="hero-sub" data-i18n="hero.subtitle">FrameFinish verwandelt dein iPhone in eine präzise Ziellinien-Kamera.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary btn-lg" href="support.html" data-i18n="hero.ctaPrimary">An der Beta teilnehmen</a>
+            <a class="btn btn-ghost btn-lg" href="#features" data-i18n="hero.ctaSecondary">Funktionen ansehen</a>
+          </div>
+          <p class="hero-note" data-i18n="hero.note">Für iPhone &amp; iPad · funktioniert offline · Daten bleiben bei dir</p>
+        </div>
+        <div class="mockup" aria-hidden="true">
+          <div class="mockup-screen"><span data-i18n="hero.mockup">App-Screenshot hier einsetzen</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Features ===== -->
+    <section class="section" id="features">
+      <div class="container">
+        <div class="center" style="margin-bottom:48px">
+          <span class="eyebrow" data-i18n="nav.features">Funktionen</span>
+          <h2 data-i18n="features.title">Alles für den präzisen Zieleinlauf</h2>
+          <p class="lead" data-i18n="features.subtitle">Gebaut für den Schul- und Vereinsalltag.</p>
+        </div>
+        <div class="grid grid-3">
+          <article class="card">
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 3v18"/></svg></div>
+            <h3 data-i18n="features.f1.title">Frame-genaue Auswertung</h3>
+            <p data-i18n="features.f1.body"></p>
+          </article>
+          <article class="card">
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+            <h3 data-i18n="features.f2.title">Gruppen &amp; Athlet:innen</h3>
+            <p data-i18n="features.f2.body"></p>
+          </article>
+          <article class="card">
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m23 7-7 5 7 5V7z"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg></div>
+            <h3 data-i18n="features.f3.title">Aufnahme mit Auto-Start</h3>
+            <p data-i18n="features.f3.body"></p>
+          </article>
+          <article class="card">
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m7 14 4-4 3 3 5-6"/></svg></div>
+            <h3 data-i18n="features.f4.title">Rangliste &amp; Export</h3>
+            <p data-i18n="features.f4.body"></p>
+          </article>
+          <article class="card">
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg></div>
+            <h3 data-i18n="features.f5.title">Cloud-Sync</h3>
+            <p data-i18n="features.f5.body"></p>
+          </article>
+          <article class="card">
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+            <h3 data-i18n="features.f6.title">Offline &amp; datensparsam</h3>
+            <p data-i18n="features.f6.body"></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== How it works ===== -->
+    <section class="section" id="how" style="background:var(--bg-2)">
+      <div class="container">
+        <div class="center" style="margin-bottom:44px">
+          <span class="eyebrow" data-i18n="nav.how">So funktioniert’s</span>
+          <h2 data-i18n="how.title">In drei Schritten zur Zeit</h2>
+        </div>
+        <div class="steps">
+          <div class="step"><h3 data-i18n="how.s1.title">Aufnehmen</h3><p data-i18n="how.s1.body"></p></div>
+          <div class="step"><h3 data-i18n="how.s2.title">Markieren</h3><p data-i18n="how.s2.body"></p></div>
+          <div class="step"><h3 data-i18n="how.s3.title">Auswerten</h3><p data-i18n="how.s3.body"></p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Audience ===== -->
+    <section class="section" id="audience">
+      <div class="container">
+        <div class="center" style="margin-bottom:44px">
+          <span class="eyebrow" data-i18n="nav.audience">Für wen</span>
+          <h2 data-i18n="audience.title">Gemacht für die Praxis</h2>
+        </div>
+        <div class="grid grid-3">
+          <article class="card"><h3 data-i18n="audience.a1.title">Lehrkräfte</h3><p data-i18n="audience.a1.body"></p></article>
+          <article class="card"><h3 data-i18n="audience.a2.title">Trainer:innen</h3><p data-i18n="audience.a2.body"></p></article>
+          <article class="card"><h3 data-i18n="audience.a3.title">Vereine</h3><p data-i18n="audience.a3.body"></p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="section-sm">
+      <div class="container">
+        <div class="cta-band">
+          <h2 data-i18n="cta.title">Sei bei der Beta dabei</h2>
+          <p data-i18n="cta.body"></p>
+          <a class="btn btn-primary btn-lg" href="support.html" data-i18n="cta.button">Zum Support-Formular</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="index.html">
+            <svg class="brand-mark" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+              <rect width="48" height="48" rx="12" fill="url(#fff)"/>
+              <path d="M15 19v-3a2 2 0 0 1 2-2h3M33 19v-3a2 2 0 0 0-2-2h-3M15 29v3a2 2 0 0 0 2 2h3M33 29v3a2 2 0 0 1-2 2h-3" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/>
+              <g fill="#fff"><rect x="20" y="20" width="4" height="4"/><rect x="24" y="24" width="4" height="4"/></g>
+              <defs><linearGradient id="fff" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse"><stop stop-color="#6366F1"/><stop offset="1" stop-color="#22C55E"/></linearGradient></defs>
+            </svg>
+            <span>Frame<span class="brand-fin">Finish</span></span>
+          </a>
+          <p data-i18n="footer.tagline">Frame-genaue Sport-Zeitmessung.</p>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.product">Produkt</h4>
+          <a href="#features" data-i18n="nav.features">Funktionen</a>
+          <a href="#how" data-i18n="nav.how">So funktioniert’s</a>
+          <a href="support.html" data-i18n="nav.support">Support</a>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.legal">Rechtliches</h4>
+          <a href="privacy.html" data-i18n="footer.privacy">Datenschutz</a>
+          <a href="impressum.html" data-i18n="footer.impressum">Impressum</a>
+          <a href="support.html" data-i18n="footer.support">Support</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> FrameFinish · <span data-i18n="footer.rights">Alle Rechte vorbehalten.</span></span>
+        <span data-i18n="footer.disclaimer">Apple, App Store und iCloud sind Marken von Apple Inc.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
