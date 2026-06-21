@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-label="FrameFinish">
+  <defs>
+    <linearGradient id="ffInk" x1="20%" y1="10%" x2="80%" y2="95%">
+      <stop offset="0%"  stop-color="#39d877"/>
+      <stop offset="55%" stop-color="#1fb45c"/>
+      <stop offset="100%" stop-color="#0e8a45"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Inverted: light square, green mark — for dark / colored backgrounds -->
+  <rect width="1024" height="1024" rx="229" fill="#FFFFFF"/>
+
+  <g stroke="url(#ffInk)" stroke-width="30" fill="none"
+     stroke-linecap="round" stroke-linejoin="round">
+    <rect x="466" y="120" width="92" height="48" rx="20" fill="url(#ffInk)" stroke="none"/>
+    <line x1="512" y1="168" x2="512" y2="208"/>
+    <g transform="rotate(32 512 560)">
+      <rect x="492" y="180" width="40" height="56" rx="14" fill="url(#ffInk)" stroke="none"/>
+    </g>
+    <circle cx="512" cy="560" r="320"/>
+    <circle cx="512" cy="560" r="286"/>
+    <line x1="512" y1="260" x2="512" y2="306"/>
+    <line x1="812" y1="560" x2="766" y2="560"/>
+    <line x1="512" y1="860" x2="512" y2="814"/>
+    <line x1="212" y1="560" x2="258" y2="560"/>
+    <g transform="translate(512 560)" stroke-width="22">
+      <g transform="rotate(0)"><path d="M 220,0 A 220,220 0 0,1 110,190.5 L -18,32 Z"/></g>
+      <g transform="rotate(60)"><path d="M 220,0 A 220,220 0 0,1 110,190.5 L -18,32 Z"/></g>
+      <g transform="rotate(120)"><path d="M 220,0 A 220,220 0 0,1 110,190.5 L -18,32 Z"/></g>
+      <g transform="rotate(180)"><path d="M 220,0 A 220,220 0 0,1 110,190.5 L -18,32 Z"/></g>
+      <g transform="rotate(240)"><path d="M 220,0 A 220,220 0 0,1 110,190.5 L -18,32 Z"/></g>
+      <g transform="rotate(300)"><path d="M 220,0 A 220,220 0 0,1 110,190.5 L -18,32 Z"/></g>
+    </g>
+    <circle cx="512" cy="560" r="20" fill="url(#ffInk)" stroke="none"/>
+  </g>
+</svg>

@@ -20,6 +20,9 @@ window.FF_I18N = {
     'nav.cta': 'Beta testen',
     'nav.home': 'Start',
 
+    'theme.toLight': 'Zu hellem Design wechseln',
+    'theme.toDark': 'Zu dunklem Design wechseln',
+
     'hero.badge': 'Bald im App Store · jetzt als Beta',
     'hero.title': 'Zeitmessung. Frame-genau.',
     'hero.subtitle':
@@ -32,6 +35,7 @@ window.FF_I18N = {
     'features.title': 'Alles für den präzisen Zieleinlauf',
     'features.subtitle':
       'Gebaut für den Schul- und Vereinsalltag — schnell, robust und ohne Zusatzhardware.',
+    'features.all': 'Alle Funktionen ansehen',
     'features.f1.title': 'Frame-genaue Auswertung',
     'features.f1.body':
       'Spule das Video Bild für Bild und markiere exakt den Moment, in dem jede Person die Ziellinie überquert — auf die Hundertstelsekunde.',
@@ -71,6 +75,109 @@ window.FF_I18N = {
     'cta.body': 'FrameFinish ist aktuell in der geschlossenen Testphase. Schreib uns über das Support-Formular, wenn du als Tester:in dabei sein möchtest.',
     'cta.button': 'Zum Support-Formular',
 
+    // ── Tour / Funktionsseite (features.html) ──────────────────────────
+    'tour.metaTitle': 'Funktionen — FrameFinish',
+    'tour.metaDescription':
+      'Alle Funktionen von FrameFinish im Detail: Aufnahme mit Stoppuhr-Sync, frame-genaue Auswertung, Ranglisten, Export, iCloud-Sync und mehr.',
+    'tour.eyebrow': 'Funktionen',
+    'tour.title': 'Alle Funktionen im Überblick',
+    'tour.subtitle':
+      'Von der Gruppe bis zur fertigen Rangliste — jede Funktion einfach erklärt. Die Geräte-Vorschauen sind Platzhalter; deine echten Screenshots setzt du später ein.',
+    'tour.note': 'Für iPhone & iPad · funktioniert offline · Daten bleiben bei dir',
+    'tour.shotHint': 'Screenshot hier einsetzen',
+
+    'tour.g1.title': 'Gruppen, Mitglieder & Läufe',
+    'tour.g1.lead':
+      'Lege Klassen oder Trainingsgruppen an, verwalte Teilnehmende mit Startnummer und definiere wiederverwendbare Lauf-Vorlagen.',
+    'tour.g1.b1': 'Gruppen anlegen, umbenennen und löschen — z. B. „Klasse 7a“ oder „Sprintgruppe“.',
+    'tour.g1.b2': 'Mitglieder mit Name und Startnummer: einzeln, als Massen-Anlage oder mit automatischen Nummern.',
+    'tour.g1.b3': 'Lauf-Vorlagen mit Name und optionaler Distanz (100 m, 3000 m, Marathon …) — einmal anlegen, überall nutzen.',
+    'tour.g1.b4': 'Eine Vorlage pro Gruppe als Lauf-Instanz mit eigenem Namen anhängen — die Vorlage bleibt unverändert.',
+    'tour.g1.shotTitle': 'Gruppen-Detail',
+    'tour.g1.shot': 'Zeige hier das Gruppen-Detail mit der Mitgliederliste und den angehängten Läufen.',
+
+    'tour.g2.title': 'Aufnahme mit Stoppuhr-Sync',
+    'tour.g2.lead':
+      'Filme den Zieleinlauf in hoher Bildrate und starte die Messung genau dann, wenn der Lauf losgeht.',
+    'tour.g2.b1': 'Live-Vorschau über die Rückkamera in hoher Bildrate.',
+    'tour.g2.b2': 'Stoppuhr-Pre-Arm: Stoppuhr starten, erst später aufnehmen — der Versatz wird automatisch erfasst.',
+    'tour.g2.b3': 'Direkt-Aufnahme: ohne Vorlauf, Aufnahmestart = Stoppuhr-Start.',
+    'tour.g2.b4': 'Mikrofon-Startsignal: ein lauter Ton (Startschuss, Klatschen) startet die Stoppuhr automatisch.',
+    'tour.g2.b5': 'Wasserwaage: warnt, wenn das Gerät über deinen eingestellten Winkel hinaus gekippt ist.',
+    'tour.g2.b6': 'Auto-FPS: liest die echte Bildrate der Kamera; sonst 30 fps als Rückfall.',
+    'tour.g2.shotTitle': 'Aufnahme-Screen',
+    'tour.g2.shot': 'Zeige hier die Kamera-Ansicht mit laufender Stoppuhr, Mikrofon-Pegel und Wasserwaage.',
+
+    'tour.g3.title': 'Frame-genaue Auswertung',
+    'tour.g3.lead':
+      'Spule das Video Bild für Bild und markiere für jede Person exakt den Moment des Zieleinlaufs — auf die Hundertstelsekunde.',
+    'tour.g3.b1': 'Frame-Stepping: −30 s / −10 s / −10 f / −1 f / +1 f / +10 f / +10 s / +30 s, per Tasten oder Tastatur.',
+    'tour.g3.b2': 'Wiedergabegeschwindigkeit 0,25× bis 4× für die exakte Stelle.',
+    'tour.g3.b3': 'Audio-Wellenform: macht den Startschuss sichtbar, damit du den Startframe sicher findest.',
+    'tour.g3.b4': 'Offset-Modi: Start im Video setzen oder Vorlaufzeit der Stoppuhr in Min/Sek/Millisekunden eingeben.',
+    'tour.g3.b5': 'Ziel markieren: Person wählen, Übertritt antippen — Frame, Zeit und Ziel-Standbild werden gespeichert.',
+    'tour.g3.b6': 'Neuberechnung nach Offset-Änderung; Ergebnisliste pro Person mit Sprung zum jeweiligen Frame.',
+    'tour.g3.shotTitle': 'Auswertung (Review)',
+    'tour.g3.shot': 'Zeige hier den Review-Screen mit Video, Wellenform-Leiste, Frame-Steppern und Athletenliste — auf dem iPad besonders übersichtlich.',
+
+    'tour.g4.title': 'Ranglisten, Schüler-Modus & Archiv',
+    'tour.g4.lead':
+      'Sieh Ergebnisse als saubere Rangliste, blende Zeiten für die Klasse aus und finde jede Aufnahme im Archiv wieder.',
+    'tour.g4.b1': 'Rangliste pro Lauf mit Bestzeit über alle Durchgänge, sortierbar nach Zeit oder Name.',
+    'tour.g4.b2': 'Schüler-Modus: blendet alle Zeiten aus und sperrt die Anzeige — fair für den Unterricht.',
+    'tour.g4.b3': 'Athlet-Detail: alle Versuche einer Person in einem Lauf, die Bestzeit hervorgehoben.',
+    'tour.g4.b4': 'Einzel-Versuch mit Ziel-Standbild und Sprung zurück zur Original-Aufnahme.',
+    'tour.g4.b5': 'Video-Archiv: alle Aufnahmen pro Lauf ansehen, neu auswerten oder in den Papierkorb legen.',
+    'tour.g4.shotTitle': 'Rangliste',
+    'tour.g4.shot': 'Zeige hier die Rangliste mit Podium und Ergebnistabelle.',
+
+    'tour.g5.title': 'Export, PDF, Video & Backup',
+    'tour.g5.lead':
+      'Teile Ergebnisse in jedem Format — von der CSV-Tabelle bis zum annotierten Video — und sichere alle Daten als Backup.',
+    'tour.g5.b1': 'CSV-Export der Rangliste in der angezeigten Sortierung.',
+    'tour.g5.b2': 'PDF-Druck der gestylten Rangliste.',
+    'tour.g5.b3': 'Annotiertes Video: Name und Zeit fest ins Video eingebrannt.',
+    'tour.g5.b4': 'Vollständiges ZIP-Backup mit allen Daten und Videos.',
+    'tour.g5.b5': 'JSON-Export/-Import (ohne Videos) sowie Wiederherstellen per Ersetzen oder Zusammenführen.',
+    'tour.g5.shotTitle': 'Export-Menü',
+    'tour.g5.shot': 'Zeige hier die Rangliste mit geöffnetem Export-Menü (CSV / PDF / Video).',
+
+    'tour.g6.title': 'iCloud-Sync, Anmeldung & Offline',
+    'tour.g6.lead':
+      'FrameFinish läuft komplett offline. Wer mag, synchronisiert optional über die eigene iCloud — du behältst die Kontrolle.',
+    'tour.g6.b1': 'Optionale Synchronisierung über dein eigenes Apple-Konto (iCloud).',
+    'tour.g6.b2': '„Sign in with Apple“ für die Anmeldung — ohne separates Passwort.',
+    'tour.g6.b3': 'Offline-First: Aufnahmen und Ergebnisse bleiben auf dem Gerät, solange du nicht synchronisierst.',
+    'tour.g6.b4': 'Du entscheidest, was hochgeladen wird; kein Werbe-Tracking, kein Datenverkauf.',
+    'tour.g6.b5': 'Konto und zugehörige Daten jederzeit direkt in der App löschbar.',
+    'tour.g6.shotTitle': 'Konto & Sync',
+    'tour.g6.shot': 'Zeige hier die Konto-/Sync-Einstellungen mit „Sign in with Apple“ und dem Sync-Status.',
+
+    'tour.g7.title': 'Papierkorb & Wiederherstellung',
+    'tour.g7.lead':
+      'Nichts ist sofort weg: Gelöschtes landet zuerst im Papierkorb und lässt sich mit allen Unter-Einträgen zurückholen.',
+    'tour.g7.b1': 'Soft-Delete für Gruppen, Mitglieder, Läufe, Aufnahmen und Ergebnisse — inklusive aller Unter-Einträge.',
+    'tour.g7.b2': 'Wiederherstellen bringt einen Eintrag samt Kindern zurück in den aktiven Bestand.',
+    'tour.g7.b3': 'Endgültiges Löschen einzeln oder „alles leeren“, wenn du sicher bist.',
+    'tour.g7.shotTitle': 'Papierkorb',
+    'tour.g7.shot': 'Zeige hier den Papierkorb mit wiederherstellbaren Einträgen.',
+
+    'tour.g8.title': 'Einstellungen & Bedienkomfort',
+    'tour.g8.lead':
+      'Passe FrameFinish an deinen Alltag an — von der Sprache über den Schüler-Modus bis zu Tastatur-Kürzeln auf dem iPad.',
+    'tour.g8.b1': 'Sprache (Deutsch/Englisch) und Erscheinungsbild (hell, dunkel, System).',
+    'tour.g8.b2': 'Schüler-Modus, Presenter-Taps (sichtbares Tipp-Feedback für den Beamer) und Toast-Hinweise mit Position.',
+    'tour.g8.b3': 'Mikrofon-Empfindlichkeit, Neigungs-Schwelle und Auto-FPS feinjustieren.',
+    'tour.g8.b4': 'Schnellzugriff: häufige Schalter direkt im Kopfbereich.',
+    'tour.g8.b5': 'Onboarding-Anleitung auf der Startseite und Tooltips an kniffligen Stellen.',
+    'tour.g8.b6': 'iPad: Tastatur-Kürzel und Trackpad-Unterstützung für schnelleres Arbeiten.',
+    'tour.g8.shotTitle': 'Einstellungen',
+    'tour.g8.shot': 'Zeige hier die Einstellungen mit Erscheinungsbild und Schüler-Modus.',
+
+    'tour.cta.title': 'Bereit, es auszuprobieren?',
+    'tour.cta.body': 'FrameFinish ist gerade in der geschlossenen Beta. Melde dich über das Support-Formular, wenn du dabei sein möchtest.',
+    'tour.cta.button': 'Zum Support-Formular',
+
     'footer.tagline': 'Frame-genaue Sport-Zeitmessung.',
     'footer.product': 'Produkt',
     'footer.legal': 'Rechtliches',
@@ -106,7 +213,7 @@ window.FF_I18N = {
       'Eine Weitergabe deiner Inhalte an Dritte findet nicht statt — außer an die von dir gewählten Plattformdienste (Apple/Google) als technische Infrastruktur der von dir aktivierten Cloud-Funktion.',
     'privacy.crash.title': '5. Fehler- und Absturzdiagnose',
     'privacy.crash.body':
-      'Zur Stabilitätsverbesserung kann die App anonyme Absturzberichte über den Dienst Sentry senden. Diese enthalten technische Fehlerdaten, jedoch keine personenbezogenen Inhalte (keine Namen, keine E-Mail, keine IP-zuordnung). Diese Funktion ist standardmäßig deaktiviert und wird erst mit einer späteren Version aktiv.',
+      'Zur Stabilitätsverbesserung kann die App anonyme Absturzberichte über den Dienst Sentry senden. Diese enthalten technische Fehlerdaten, jedoch keine personenbezogenen Inhalte (keine Namen, keine E-Mail, keine IP-Zuordnung). Diese Funktion ist standardmäßig deaktiviert und wird erst mit einer späteren Version aktiv.',
     'privacy.website.title': '6. Diese Website',
     'privacy.website.body':
       'Die Seite wird über GitHub Pages bereitgestellt; dabei kann der Hoster technisch notwendige Zugriffsdaten (z. B. IP-Adresse) verarbeiten. Das Kontaktformular nutzt den Dienst Web3Forms, um deine Nachricht per E-Mail zuzustellen. Die von dir eingegebenen Angaben (Name, E-Mail, Nachricht) werden ausschließlich zur Bearbeitung deiner Anfrage verwendet.',
@@ -188,6 +295,9 @@ window.FF_I18N = {
     'nav.cta': 'Join the beta',
     'nav.home': 'Home',
 
+    'theme.toLight': 'Switch to light mode',
+    'theme.toDark': 'Switch to dark mode',
+
     'hero.badge': 'Coming to the App Store · beta now',
     'hero.title': 'Timing. Frame-accurate.',
     'hero.subtitle':
@@ -200,6 +310,7 @@ window.FF_I18N = {
     'features.title': 'Everything for a precise finish',
     'features.subtitle':
       'Built for everyday school and club use — fast, robust, no extra hardware.',
+    'features.all': 'See all features',
     'features.f1.title': 'Frame-accurate marking',
     'features.f1.body':
       'Step through the video frame by frame and mark the exact moment each person crosses the finish line — down to the hundredth of a second.',
@@ -238,6 +349,109 @@ window.FF_I18N = {
     'cta.title': 'Be part of the beta',
     'cta.body': 'FrameFinish is currently in closed testing. Reach out via the support form if you’d like to be a tester.',
     'cta.button': 'Go to the support form',
+
+    // ── Tour / features page (features.html) ───────────────────────────
+    'tour.metaTitle': 'Features — FrameFinish',
+    'tour.metaDescription':
+      'All FrameFinish features in detail: recording with stopwatch sync, frame-accurate marking, rankings, export, iCloud sync and more.',
+    'tour.eyebrow': 'Features',
+    'tour.title': 'Every feature at a glance',
+    'tour.subtitle':
+      'From the group to the finished ranking — every feature explained simply. The device previews are placeholders; drop in your real screenshots later.',
+    'tour.note': 'For iPhone & iPad · works offline · your data stays with you',
+    'tour.shotHint': 'Place screenshot here',
+
+    'tour.g1.title': 'Groups, members & races',
+    'tour.g1.lead':
+      'Create classes or training groups, manage participants with bib numbers, and define reusable race templates.',
+    'tour.g1.b1': 'Create, rename and delete groups — e.g. “Class 7a” or “sprint squad”.',
+    'tour.g1.b2': 'Members with name and bib number: one by one, in bulk, or with automatic numbers.',
+    'tour.g1.b3': 'Race templates with a name and optional distance (100 m, 3000 m, marathon …) — create once, reuse everywhere.',
+    'tour.g1.b4': 'Attach a template to a group as a race instance with its own name — the template stays unchanged.',
+    'tour.g1.shotTitle': 'Group detail',
+    'tour.g1.shot': 'Show the group detail here, with the member list and the attached races.',
+
+    'tour.g2.title': 'Recording with stopwatch sync',
+    'tour.g2.lead':
+      'Film the finish at a high frame rate and start timing exactly when the race begins.',
+    'tour.g2.b1': 'Live preview from the rear camera at a high frame rate.',
+    'tour.g2.b2': 'Stopwatch pre-arm: start the stopwatch, record later — the offset is captured automatically.',
+    'tour.g2.b3': 'Direct recording: no lead time, recording start = stopwatch start.',
+    'tour.g2.b4': 'Microphone start signal: a loud sound (gun, clap) starts the stopwatch automatically.',
+    'tour.g2.b5': 'Level indicator: warns when the device is tilted beyond your chosen angle.',
+    'tour.g2.b6': 'Auto FPS: reads the camera’s real frame rate; otherwise falls back to 30 fps.',
+    'tour.g2.shotTitle': 'Recording screen',
+    'tour.g2.shot': 'Show the camera view here, with the running stopwatch, microphone level and level indicator.',
+
+    'tour.g3.title': 'Frame-accurate marking',
+    'tour.g3.lead':
+      'Step through the video frame by frame and mark the exact finish moment for each person — to the hundredth of a second.',
+    'tour.g3.b1': 'Frame stepping: −30 s / −10 s / −10 f / −1 f / +1 f / +10 f / +10 s / +30 s, via buttons or keyboard.',
+    'tour.g3.b2': 'Playback speed 0.25× to 4× for the exact spot.',
+    'tour.g3.b3': 'Audio waveform: makes the starting gun visible so you can find the start frame reliably.',
+    'tour.g3.b4': 'Offset modes: set the start inside the video, or enter the stopwatch lead time in min/sec/milliseconds.',
+    'tour.g3.b5': 'Mark finish: pick a person, tap the crossing — frame, time and finish-line still are saved.',
+    'tour.g3.b6': 'Recompute after offset changes; per-person result list with a jump to each frame.',
+    'tour.g3.shotTitle': 'Review screen',
+    'tour.g3.shot': 'Show the review screen here, with the video, waveform strip, frame steppers and athlete list — especially clear on iPad.',
+
+    'tour.g4.title': 'Rankings, student mode & archive',
+    'tour.g4.lead':
+      'See results as a clean ranking, hide times for the class, and find every recording again in the archive.',
+    'tour.g4.b1': 'Ranking per race with the best time across all runs, sortable by time or name.',
+    'tour.g4.b2': 'Student mode: hides all times and locks the display — fair for the classroom.',
+    'tour.g4.b3': 'Athlete detail: every attempt of one person in a race, the best time highlighted.',
+    'tour.g4.b4': 'Single attempt with the finish-line still and a jump back to the source recording.',
+    'tour.g4.b5': 'Video archive: watch every recording per race, re-mark it, or move it to the trash.',
+    'tour.g4.shotTitle': 'Ranking',
+    'tour.g4.shot': 'Show the ranking here, with the podium and results table.',
+
+    'tour.g5.title': 'Export, PDF, video & backup',
+    'tour.g5.lead':
+      'Share results in any format — from a CSV table to an annotated video — and back up all your data.',
+    'tour.g5.b1': 'CSV export of the ranking in the displayed order.',
+    'tour.g5.b2': 'PDF print of the styled ranking.',
+    'tour.g5.b3': 'Annotated video: name and time burned into the video.',
+    'tour.g5.b4': 'Full ZIP backup with all data and videos.',
+    'tour.g5.b5': 'JSON export/import (without videos) plus restore by replacing or merging.',
+    'tour.g5.shotTitle': 'Export menu',
+    'tour.g5.shot': 'Show the ranking here with the export menu open (CSV / PDF / video).',
+
+    'tour.g6.title': 'iCloud sync, sign-in & offline',
+    'tour.g6.lead':
+      'FrameFinish runs fully offline. If you want, sync optionally via your own iCloud — you stay in control.',
+    'tour.g6.b1': 'Optional sync via your own Apple account (iCloud).',
+    'tour.g6.b2': '“Sign in with Apple” for sign-in — no separate password.',
+    'tour.g6.b3': 'Offline-first: recordings and results stay on the device until you sync.',
+    'tour.g6.b4': 'You decide what gets uploaded; no advertising tracking, no data selling.',
+    'tour.g6.b5': 'Delete your account and its data anytime, right in the app.',
+    'tour.g6.shotTitle': 'Account & sync',
+    'tour.g6.shot': 'Show the account/sync settings here, with “Sign in with Apple” and the sync status.',
+
+    'tour.g7.title': 'Trash & recovery',
+    'tour.g7.lead':
+      'Nothing disappears instantly: deleted items go to the trash first and can be restored with all their sub-entries.',
+    'tour.g7.b1': 'Soft delete for groups, members, races, recordings and results — including all sub-entries.',
+    'tour.g7.b2': 'Restore brings an entry and its children back into the live data.',
+    'tour.g7.b3': 'Permanent delete one by one or “empty all” when you’re sure.',
+    'tour.g7.shotTitle': 'Trash',
+    'tour.g7.shot': 'Show the trash here, with restorable entries.',
+
+    'tour.g8.title': 'Settings & convenience',
+    'tour.g8.lead':
+      'Tune FrameFinish to your day — from language and student mode to keyboard shortcuts on iPad.',
+    'tour.g8.b1': 'Language (German/English) and appearance (light, dark, system).',
+    'tour.g8.b2': 'Student mode, presenter taps (visible tap feedback for the projector) and toast notices with position.',
+    'tour.g8.b3': 'Fine-tune microphone sensitivity, tilt threshold and auto FPS.',
+    'tour.g8.b4': 'Quick access: frequent toggles right in the header.',
+    'tour.g8.b5': 'Onboarding guide on the home screen and tooltips at tricky spots.',
+    'tour.g8.b6': 'iPad: keyboard shortcuts and trackpad support for faster work.',
+    'tour.g8.shotTitle': 'Settings',
+    'tour.g8.shot': 'Show the settings here, with appearance and student mode.',
+
+    'tour.cta.title': 'Ready to try it?',
+    'tour.cta.body': 'FrameFinish is in closed beta right now. Reach out via the support form if you’d like to take part.',
+    'tour.cta.button': 'Go to the support form',
 
     'footer.tagline': 'Frame-accurate sports timing.',
     'footer.product': 'Product',
